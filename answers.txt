@@ -1,0 +1,27 @@
+1.)
+
+$newArray = array();
+for ($i = 0; $i < count($array); $i++) {
+  for ($j = $i +1; $j < count($array); $j++) {
+      if ($array[$i] == $array[$j]) break;
+      if ($j == count($array) - 1) array_push($newArray,$array[$i]);
+    }
+}
+
+In PHP you can also just use the array_unique() function
+
+
+
+2.) Server-side filtering ensures the client is getting the most up to date results and not relying on caches that may need to be cleared out on the client's end
+
+
+3.) JQuery simplifies a lot of the Javascript programming and makesa debugging a lot easier. It is very flexible and is very easy to use for beginners. But it is an extremely large library and if you are looking to optimize your site and make it run faster, you should use this library
+
+
+
+4.) The $query string should be built with double quotes and the variables enclosed with single quotes in order to pass the variables
+
+$query = "insert into friends (name) values ('$name')";
+
+You should also santize the query by using the mysql_real_escape_string() function
+

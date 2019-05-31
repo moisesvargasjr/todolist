@@ -1,0 +1,33 @@
+.createTodoListMain .header input {
+	padding: 10px;
+	font-size: 16px;
+	border: 2px solid #FFF;
+	width: 165px;
+}
+
+.createTodoListMain .header button {
+	padding: 10px;
+	font-size: 16px;
+	margin: 10px;
+	margin-right: 0px;
+	border: 2px solid #0066FF;
+	color: #FFF;
+	background-color: #0066FF;	
+}
+
+.createTodoListMain .resultsList li {
+	color: #333;
+	background-color: rgba(255,255,255, .5);
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	list-style: none;
+}
+
+ul.todoList {
+	padding: 0;
+}
+
+ul.completedList {
+	text-decoration: line-through;
+}
